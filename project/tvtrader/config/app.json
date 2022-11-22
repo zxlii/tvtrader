@@ -1,25 +1,19 @@
 {
-  "okx_info": {
-    "apiKey": "48bd5fa0-fd15-431d-a582-18ac3db66725",
-    "secret": "A9A953246579183D4389261FC4031B33",
-    "password": "Hardson_2012",
-    "options": {"defaultType": "swap"},
-    "timeout": 30000,
-    "enableRateLimit": true
-  },
-  "apiKey": "48bd5fa0-fd15-431d-a582-18ac3db66725",
-  "secret": "A9A953246579183D4389261FC4031B33",
-  "password": "Hardson_2012",
-  "options": {"defaultType": "swap"},
-  "timeout": 30000,
-  "enableRateLimit": true,
-  "proxies":
-  {
-    "http": "http://127.0.0.1:7890",
-    "https": "http://127.0.0.1:7890"
-  },
-  "symbol":"BTC-USDT-SWAP",
-  "win_ratio": 1,
-  "face": 0.01,
-  "lever": 10
+	"okx_info": {
+		"apiKey": "48bd5fa0-fd15-431d-a582-18ac3db66725",
+		"secret": "A9A953246579183D4389261FC4031B33",
+		"password": "Hardson_2012",
+		"options": {"defaultType": "swap"},
+		"timeout": 30000,
+		"enableRateLimit": true
+	},
+	"proxies":
+	{
+		"http": "http://127.0.0.1:7890",
+		"https": "http://127.0.0.1:7890"
+	},
+	"symbol":"BTC-USDT-SWAP",
+	"win_ratio": 1,
+	"face": 0.01,
+	"lever": 10
 }

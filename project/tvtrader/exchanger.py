@@ -6,7 +6,7 @@ class Exchanger:
     def __init__(self, robot):
         self.robot = robot
         self.okx = ccxt.okex(robot.config['okx_info'])
-        self.okx.proxies = robot.config['proxies']
+        # self.okx.proxies = robot.config['proxies']
         self.symbol = robot.config['symbol']
         self.lever = robot.config['lever']
         self.face = robot.config['face']

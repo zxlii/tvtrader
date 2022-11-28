@@ -1,5 +1,4 @@
 from command import Command
-from exchange_okx import ExchangeOKX
 from exchanger import Exchanger
 from order_holder import OrderHolder
 

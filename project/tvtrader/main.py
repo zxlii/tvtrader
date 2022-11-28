@@ -8,10 +8,12 @@ app = FastAPI()
 
 @app.post("/buy")
 def buy(item: Item):
+    print(item)
     robot.on_recieve_command('buy', item)
 
 @app.post("/sell")
 def sell(item: Item):
+    print(item)
     robot.on_recieve_command('sell', item)
 
 if __name__ == '__main__':

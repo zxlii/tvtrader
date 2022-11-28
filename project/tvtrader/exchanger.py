@@ -20,6 +20,9 @@ class Exchanger:
     def cancel_order(self, order_id):
         self.okx.cancel_order(order_id, self.symbol)
 
+    def close_all(self):
+        self.okx.close_all()
+
     def create_order_by_command(self, cmd:Command):
         return self.create_order(cmd.side, cmd.cost, cmd.price, cmd.stop, cmd.profit)
 

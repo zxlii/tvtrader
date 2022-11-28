@@ -22,6 +22,9 @@ class Robot:
 
         self.holder.on_recieve_command(self.cmd)
 
+    def on_close_all(self):
+        self.holder.on_close_all()
+
     def on_recieve_command_test(self, side, price, stop):
         self.cmd.side = side
         self.cmd.cost = self.exchange.get_balance() * 0.5

@@ -16,6 +16,11 @@ def sell(item: Item):
     print(item)
     robot.on_recieve_command('sell', item)
 
+@app.post("/close")
+def close(item: Item):
+    print(item)
+    robot.on_close_all()
+
 if __name__ == '__main__':
     f = open('config/app.json')
     config = json.load(f)

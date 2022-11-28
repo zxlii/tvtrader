@@ -23,3 +23,6 @@ class OrderHolder:
         order = self.exchange.create_order_by_command(cmd)
         self.order_id = order['id']
         self.command = cmd
+
+    def on_close_all(self):
+        self.exchange.close_all()
